@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+body{background:#0f172a;color:white;}
+header{position:fixed;width:100%;background:rgba(15,23,42,.95);}
+nav{max-width:1200px;margin:auto;padding:20px;display:flex;justify-content:space-between;align-items:center;}
+nav ul{display:flex;list-style:none;gap:25px;}
+nav a{text-decoration:none;color:white;}
+.hero{height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:20px;}
+.hero h1{font-size:4rem;}
+.btn{margin-top:30px;padding:15px 35px;background:#0ea5e9;color:white;text-decoration:none;border-radius:50px;}
+.cards{max-width:1200px;margin:auto;padding:100px 20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:30px;}
+.card{background:#1e293b;padding:35px;border-radius:20px;}
+.flow{text-align:center;padding:100px 20px;}
+.flow-container{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:20px;}
+.step{background:#1e293b;padding:25px;border-radius:15px;}
+footer{text-align:center;padding:30px;background:#020617;}
